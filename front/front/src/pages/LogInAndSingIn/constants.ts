@@ -1,0 +1,77 @@
+import { TabSignUpData } from './LogInAndSingIn.types';
+
+export const tabSignUpData: TabSignUpData[] = [
+  [1, {
+    id: 1,
+    isActive: true,
+    label: 'Full Name',
+    placeholder: 'John Doe',
+    connection: 'input-1',
+    type: 'text',
+    isRequired: true,
+    mt: '-125px',
+  }],
+  [2, {
+    id: 2,
+    isActive: false,
+    label: 'UserName',
+    placeholder: 'John',
+    connection: 'input-2',
+    type: 'text',
+    isRequired: true,
+    mt: '-100px',
+  }],
+  [3, {
+    id: 3,
+    isActive: false,
+    label: 'Email',
+    placeholder: 'email@address.com',
+    connection: 'input-3',
+    type: 'email',
+    isRequired: true,
+    mt: '-75px',
+  }],
+  [4, {
+    id: 4,
+    isActive: false,
+    label: 'Password',
+    placeholder: '●●●●●●',
+    connection: 'input-4',
+    type: 'text',
+    isRequired: true,
+    mt: '-50px',
+  }],
+  [5, {
+    id: 5,
+    isActive: false,
+    label: 'Confirm Password',
+    placeholder: '●●●●●●',
+    connection: 'input-5',
+    type: 'text',
+    isRequired: true,
+    mt: '-25px',
+  }],
+];
+
+export const tabsLogInData: TabSignUpData[] = [
+  [1, {
+    id: 1,
+    isActive: false,
+    label: 'Email',
+    placeholder: 'email@address.com',
+    connection: 'input-1',
+    type: 'email',
+    isRequired: true,
+    mt: '-75px',
+  }],
+  [2, {
+    id: 2,
+    isActive: false,
+    label: 'Password',
+    placeholder: '●●●●●●',
+    connection: 'input-2',
+    type: 'password',
+    isRequired: true,
+    mt: '-50px',
+  }],
+];
